@@ -1,0 +1,1 @@
+import{bp as a,H as e,bV as l,a as s,aO as r,r as n,bi as o}from"./index.f3f4d7ae.js";const t=a=>(e,l)=>u(e,l,s(a)),u=(a,e,l)=>o(l,a,a).replace(/\{(\w+)\}/g,((a,l)=>{var s;return`${null!=(s=null==e?void 0:e[l])?s:`{${l}}`}`})),c=()=>{const o=a("locale");return(a=>({lang:e((()=>s(a).name)),locale:r(a)?a:n(a),t:t(a)}))(e((()=>o.value||l)))};export{c as u};
